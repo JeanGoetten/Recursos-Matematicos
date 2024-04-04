@@ -39,7 +39,9 @@ void setup(){
   sfx_animals.add(minim.loadFile("monkey.mp3")); 
   sfx_animals.add(minim.loadFile("zebra.mp3")); 
   sfx_animals.add(minim.loadFile("jaguar.wav")); 
-  //player.loop(); 
+  sfx_animals.add(minim.loadFile("theme.mp3")); 
+  sfx_animals.get(4).rewind(); 
+  sfx_animals.get(4).loop(); 
   
   font = createFont("digital-7.ttf", 90);
    
